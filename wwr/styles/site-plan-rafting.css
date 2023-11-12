@@ -1,0 +1,57 @@
+@import url('https://fonts.google.com/specimen/Merriweather?query=merri');
+:root {
+    --primary-color: #31D843;
+    --secondary-color: #72DDF7;
+    --accent1-color: #A10702;
+    --accent2-color: #7D5BA6;
+
+    --heading-font: 'https://fonts.google.com/specimen/Merriweather?query=merri', serif;
+    --paragraph-font: 'https://fonts.google.com/specimen/Lora?query=lora', serif;
+
+    --nav-background-color: #F5BB00;
+    --nav-link-color: #8EA604;
+    --nav-hover-link-color: #D76A03;
+    --nav-hover-background-color: #EC9F05;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
