@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+:root {
+    --primary-color: #31D843;
+    --secondary-color: #72DDF7;
+    --accent1-color: #A10702;
+    --accent2-color: #7D5BA6;
+
+    --heading-font: 'https://fonts.google.com/specimen/Merriweather?query=merri', serif;
+    --paragraph-font: 'https://fonts.google.com/specimen/Lora?query=lora', serif;
+
+    --nav-background-color: #F5BB00;
+    --nav-link-color: #8EA604;
+    --nav-hover-link-color: #D76A03;
+    --nav-hover-background-color: #EC9F05;
+}
+
+.hero img {
+    position: relative;
+    display:block;
+    width: 100%;
+    height:auto;
+}
+
+main h1 {
+    position: absolute;
+    top: 570px;
+    left: 500px;
+    color: red;
+}
+
+main article {
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    border: 1px solid steelblue;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+    top: 690px;
+    right: 650px;
+}
+
+article p {
+    position: absolute;
+    float: left;
+    top: 50px;
+    left: 1px;
+    color: red;
+}
+
+article img {
+    float: right;
+}
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #a00e0e;
+    color: #000;
+}
+
