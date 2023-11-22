@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 :root {
-    --primary-color: #31D843;
-    --secondary-color: #72DDF7;
-    --accent1-color: #A10702;
-    --accent2-color: #7D5BA6;
-
     --heading-font: 'https://fonts.google.com/specimen/Merriweather?query=merri', serif;
     --paragraph-font: 'https://fonts.google.com/specimen/Lora?query=lora', serif;
-
-    --nav-background-color: #F5BB00;
-    --nav-link-color: #8EA604;
-    --nav-hover-link-color: #D76A03;
-    --nav-hover-background-color: #EC9F05;
 }
 
 .hero img {
@@ -47,15 +37,11 @@ article img {
    width: auto;
    height: auto;
 }
+article p {
+    float: center;
+
+}
 
 h2 img {
     position: absolute;
 }
-.box{
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #a00e0e;
-    color: #000;
-}
-
