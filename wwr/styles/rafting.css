@@ -21,6 +21,11 @@
     height:auto;
 }
 
+footer nav {
+    position: relative;
+    width: 1rem;
+}
+
 main h1 {
     position: absolute;
     top: 570px;
