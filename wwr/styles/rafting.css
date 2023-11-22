@@ -21,6 +21,13 @@
     height:auto;
 }
 
+article {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 footer nav {
     position: relative;
     width: 1rem;
@@ -33,27 +40,22 @@ main h1 {
     color: red;
 }
 
-article p {
-    position: absolute;
+article img {
     float: right;
-    top: 50px;
-    left: -200px;
-    color: red;
+   top: 700px;
+   right: 300px;
+   width: auto;
+   height: auto;
 }
 
+h2 img {
+    position: absolute;
+}
 .box{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #a00e0e;
     color: #000;
-}
-
-main article {
-    position: absolute;
-    width: 150px;
-    height: 180px;
-    top: 690px;
-    right: 650px;
 }
 
