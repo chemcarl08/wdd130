@@ -33,27 +33,12 @@ main h1 {
     color: red;
 }
 
-main article {
-    position: absolute;
-    width: 150px;
-    height: 180px;
-    border: 1px solid steelblue;
-    padding: 1px;
-    box-shadow: 0 0 30px gray;
-    top: 690px;
-    right: 650px;
-}
-
 article p {
     position: absolute;
-    float: left;
-    top: 50px;
-    left: 1px;
-    color: red;
-}
-
-article img {
     float: right;
+    top: 50px;
+    left: -200px;
+    color: red;
 }
 
 .box{
@@ -62,5 +47,13 @@ article img {
     padding: 1rem;
     background-color: #a00e0e;
     color: #000;
+}
+
+main article {
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    top: 690px;
+    right: 650px;
 }
 
