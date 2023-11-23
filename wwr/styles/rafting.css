@@ -5,13 +5,14 @@
 }
 
 * {
-    margin: 0 0 0 0.5;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header img {
     width: 100px;
+    margin-left: 1rem;
 }
 
 
@@ -26,6 +27,7 @@ body {
 .hero img {
     width: 100%;
     height:auto;
+    margin-left: 1rem;
 }
 
 article {
@@ -47,10 +49,12 @@ p {
     margin: 1rem 0 1rem 1rem;
 }
 
-footer nav {
-    width: 1rem;
-    margin: 1rem 0 1rem 1rem;
+section img {
+    margin-left: 1rem;
+}
 
+nav a {
+    margin-left: 1rem;
 }
 
 main h1 {
