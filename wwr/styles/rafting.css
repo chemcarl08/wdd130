@@ -4,40 +4,66 @@
     --paragraph-font: 'https://fonts.google.com/specimen/Lora?query=lora', serif;
 }
 
-.hero img {
+* {
+    margin: 0 0 0 0.5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100px;
+}
+
+
+body {
+    width: 1200px;;
+}
+
+.hero {
     position: relative;
-    display:block;
+}
+
+.hero img {
     width: 100%;
     height:auto;
 }
 
 article {
     position: absolute;
-    top: 0;
+    top: 150px;
     right: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    color: blue;
+}
+h2 {
+    margin: 1rem 0 1rem 1rem;
 }
 
+p {
+    margin: 1rem 0 1rem 1rem;
+}
 
 footer nav {
-    position: relative;
     width: 1rem;
+    margin: 1rem 0 1rem 1rem;
+
 }
 
 main h1 {
     position: absolute;
-    top: 570px;
-    left: 500px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
     color: red;
 }
 
-article img {
+.hero article img {
     float: right;
-   top: 700px;
-   right: 300px;
-   width: auto;
-   height: auto;
-}
-
-h2 img {
-    position: absolute;
+    width: auto;
+    height: auto;
 }
