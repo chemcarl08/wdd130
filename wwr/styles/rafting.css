@@ -59,7 +59,7 @@ article {
     color: blue;
 }
 
-h2 {
+h1, h2 {
     color: white;
     background-color: blue;
     padding: 1rem;
