@@ -23,27 +23,73 @@
         </nav>
     </header>
     <main>
-        <h1>HTML and CSS Quiz</h1>
+        <h2>Headquarters</h2>
+        <section class="location-flex">
+            <div class="address-container">
+                <h3>Alberta, Canada</h3>
+                <p><i class="bi bi-geo-alt-fill"> 909A Railway Ave, Canmore, AB T1W 1P3</i></p>
+                <p><i class="bi bi-envelope"> contact-us@whitewater-rafting.com</i></p>
+                <p><i class="bi bi-telephone">(403) 678-6535</i></p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9960790830673!2d-115.35753852289908!3d51.09007987172146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5370c594d9398a27%3A0x53afd6c61682a976!2s909A%20Railway%20Ave%2C%20Canmore%2C%20AB%20T1W%201P4!5e0!3m2!1sen!2sca!4v1701867729309!5m2!1sen!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+        <section>
+            <h2>Our Team</h2>
+            <div class="team">
+                <figure>
+                    <img src="images/Cairns_Trainor.jpg" alt="Employee Pictures">
+                    <figcaption>Cairn - Rafting Instructor </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/John_Rowing.jpg" alt="Employee Pictures">
+                    <figcaption>John - Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Justin_Rowing.jpg" alt="Employee Pictures">
+                    <figcaption>Justin - Rafting Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+        <h2>Enter your information below:</h2>
         <form action="#" method="post">
-            <label for="q1">Fill in the blank: HTML stands for HyperText Markup __________.</label>
-            <input type="text" id="q1" name="q1" required>
-        
-            <label for="q2">Explain the purpose of the "DOCTYPE" declaration in HTML.</label>
-            <textarea id="q2" name="q2" rows="4" required></textarea>
-        
-            <label for="q3">What does CSS stand for?</label>
-            <select id="q3" name="q3" required>
-                <option value="" selected disabled>Choose One ...</option>
-                <option value="cascadingstyle">Cascading Style Sheets</option>
-                <option value="corporatesheet">Corporate Style Sheets</option>
-                <option value="computerstyle">Computer Style Sheets</option>
-            </select>
-        
-            <label for="q4">How many heading levels are there in HTML?</label>
-            <input type="number" id="q4" name="q4" min="1" required>
-        
-            <button type="submit">Submit Quiz</button>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="purpose">Purpose of Contact:</label>
+            <fieldset class="purpose">
+                <div class="radio-button">
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="inquiry" name="inquiry">
+                </div>
+                <div class="radio-button">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="reservation">
+                </div>
+                <div class="radio-button">
+                    <label for="website">Website Suggestion</label>
+                    <input type="radio" id="website" name="website">
+                </div>
+            </fieldset>
+
+            <label for="message"> Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="checkbox">
+                <label for="subscribe">Please subscribe me to the monthly newspaper</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+
+            <button type="submit">Submit</button>
         </form>
+        </div>
     </main>
     <footer>
         <p>©2024 ⭐ Rocky Mountain Whitewater Rafting ⭐ Edison Garcia ⭐</p>
