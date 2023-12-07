@@ -236,3 +236,12 @@ fieldset {
     border-style: 0;
   
 }
+
+main h1 {
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
