@@ -59,7 +59,8 @@ article {
     color: blue;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: white;
     background-color: blue;
     padding: 1rem;
@@ -236,4 +237,6 @@ fieldset {
 
 }
 
-
+.info p {
+    margin: 0 0 10px 0;
+}
