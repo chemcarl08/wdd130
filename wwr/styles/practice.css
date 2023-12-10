@@ -1,251 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
-:root {
-    --heading-font: 'https://fonts.google.com/specimen/Merriweather?query=merri', serif;
-    --paragraph-font: 'https://fonts.google.com/specimen/Lora?query=lora', serif;
-}
-
-* {
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-items: center;
-    border-bottom: 1px solid black;
-    width: 1200px;
+    /* Header styles */
 }
 
-header img {
-    width: 150px;
-    margin-left: 1rem;
-}
-
-section img {
-    margin-left: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-}
-
-body {
-    width: 1200px;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    margin-left: 1rem;
-}
-
-
-article {
-    position: absolute;
-    top: 150px;
-    right: 0;
-    left: 0;
-    width: 80%;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: blue;
-}
-
-h2 {
-    color: white;
-    background-color: blue;
-    padding: 1rem;
-    text-align: left;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-}
-
-h2 p {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-.team img {
-    width: 150px;
-}
-
-.team {
-    display: flex;
-    justify-content: space-around;
+.hero-section {
     text-align: center;
-    font-weight: 600;
-    margin: 1rem;
-}
-
-.adventure img {
-    width: 150px;
-}
-
-.adventure {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-weight: 600;
-    margin: 1rem;
-}
-
-form {
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-textarea {
-    width: 100%;
-    padding: 5px;
     margin-top: 20px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-
 }
 
-button {
+.hero-section img {
     width: 100%;
-    background-color: blue;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-p {
-    margin: 1rem 0 1rem 1rem;
-}
-
-header nav {
-    background-color: blue;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-header nav a:hover {
-    background-color: red;
-}
-
-nav a {
-    margin-left: 1rem;
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-main h1 {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: red;
-}
-
-main img {
-    width: auto;
-    margin-bottom: 2rem;
-}
-
-.hero article img {
-    float: right;
-    width: auto;
     height: auto;
 }
 
-section img {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-weight: 600;
+.hero-section h1 {
+    color: #fff;
+    font-size: 2em;
+    margin: 20px 0;
 }
 
+.newsletter-section {
+    text-align: center;
+    margin: 20px 0;
+}
 
+form input {
+    padding: 10px;
+    margin: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    text-align: center;
+}
 
 footer {
-    border-top: 1px solid black;
-    text-align: right;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-footer img {
-    float: right;
-    width: 25px;
-    padding: 15px 5px 5px 5px;
-}
-
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-}
-
-figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-}
-
-
-.location-flex {
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-}
-
-.address-container {
-    text-align: left;
-    padding-left: 50px;
-}
-
-fieldset {
-    width: 100%;
-}
-
-.info {
-    margin-top: 1rem;
-}
-
-.iframe {
-    width: 100%;
-    height: 300px;
-    border-style: 0;
-
-}
-
-main h1 {
-    color: white;
-    background-color: blue;
-    padding: 1rem;
-    text-align: left;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-}
-
-.info p {
-    margin: 0 0 10px 0;
+    /* Footer styles */
 }
