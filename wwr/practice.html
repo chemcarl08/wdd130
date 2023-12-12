@@ -1,105 +1,112 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Contact Us - Rocky Mountain Whitewater Rafting</title>
-    <meta name="description"
-        content="The purpose of the page is to introduced the members of our team, our headquarter's location and to leave a message to inquire." />
-    <meta name="author" content="Edison Garcia" />
-    <link rel="stylesheet" href="styles/practice.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Adventures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .newsletter-form {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .newsletter-form input {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .call-to-action {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 
 <body>
+
     <header>
-        <img src="images/logo.png" alt="Rafting Site Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <h1>Welcome to White Water Rafting Adventures</h1>
     </header>
-    <main>
-        <h2>Trips</h2>
 
-        <section>
-            <div class="call-to-action">
-                <h2>Contact Us</h2>
-                <p>Ready for your next adventure? Contact us now!</p>
-                <a href="contact-us.html"
-                    style="text-decoration: none; padding: 8px 16px; background-color: #333; color: white; display: inline-block; border-radius: 4px;">Contact
-                    Now</a>
-            </div>
+    <img src="hero-image.jpg" alt="White Water Rafting" id="hero-image">
 
-            <div class="trip-description">
-                <h1>Trip 1</h1>
-                <img src="trip1.jpg" alt="Trip 1">
-                <p>Description of Trip 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+    <section>
+        <div class="newsletter-form">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
 
-            <div class="trip-description">
-                <h1>Trip 2</h1>
-                <img src="trip2.jpg" alt="Trip 2">
-                <p>Description of Trip 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+        <div class="call-to-action">
+            <h2>Start Your Adventure Now!</h2>
+            <p>Explore our thrilling white water rafting trips and experience the excitement of the rapids.</p>
+            <a href="trips.html">Discover Trips</a>
+        </div>
+    </section>
 
-            <div class="trip-description">
-                <h1>Trip 3</h1>
-                <img src="trip3.jpg" alt="Trip 3">
-                <p>Description of Trip 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+    <section>
+        <div class="grid-item">
+            <img src="rafting-image1.jpg" alt="Rafting Image 1">
+            <h3>Adventure Awaits</h3>
+            <p>Embark on an adrenaline-pumping journey through challenging rapids surrounded by stunning landscapes.</p>
+        </div>
 
-            <div class="trip-table">
-                <h1>Available Trips</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Trip Name</th>
-                            <th>Duration</th>
-                            <th>Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Trip 1</td>
-                            <td>7 days</td>
-                            <td>$1000</td>
-                        </tr>
-                        <tr>
-                            <td>Trip 2</td>
-                            <td>10 days</td>
-                            <td>$1500</td>
-                        </tr>
-                        <tr>
-                            <td>Trip 3</td>
-                            <td>5 days</td>
-                            <td>$800</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+        <div class="grid-item">
+            <img src="rafting-image2.jpg" alt="Rafting Image 2">
+            <h3>Professional Guides</h3>
+            <p>Our experienced guides ensure a safe and enjoyable white water rafting experience for all adventurers.
+            </p>
+        </div>
+    </section>
 
-    </main>
     <footer>
-        <p>©2024 ⭐ Rocky Mountain Whitewater Rafting ⭐ Edison Garcia ⭐</p>
-        <nav>
-            <a href="https://facebook.com">
-                <img src="images/fb.png" alt="Facebook">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://tiktok.com">
-                <img src="images/tiktok.png" alt="Tiktok">
-            </a>
-        </nav>
-        <a href="https://app.moqups.com/TzROKr4tzhmLuDHN5mWhfO82M87Uc1fD/view/page/ad64222d5"
-            target="blank">Wireframe</a>
+        <p>&copy; 2023 White Water Rafting Adventures</p>
     </footer>
+
 </body>
 
 </html>

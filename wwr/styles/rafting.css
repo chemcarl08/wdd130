@@ -159,6 +159,7 @@ main h3 {
     right: 0;
     text-align: center;
     color: red;
+    font-size: 45px;
 }
 
 main img {
@@ -301,3 +302,57 @@ th {
     background-color: #333;
     color: white;
 }
+
+.hero-home {
+    position: relative;
+}
+
+.hero-home h4 {
+    position: absolute;
+    width: 100%;
+    top: 350px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.homepage img{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+        border: 2px blue;
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem;
+}
+
+.homepage1 {
+    border: var(--primary-color) solid 2px;
+}
+
+.homepage-pic img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.homepage-call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+ .newsletter-form {
+     background: #f4f4f4;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .newsletter-form input {
+     padding: 10px;
+     margin: 10px;
+ }
